@@ -1,0 +1,156 @@
+body {
+  background-color: white;
+}
+
+
+
+
+/* header */
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust the z-index as needed */
+  background-color: #fff;
+}
+
+.header-icons li {
+  padding-left: 15px;
+}
+.my_account {
+  font-size: 20px;
+  background-color: rgb(177, 175, 175);
+  border-radius: 15px 50px;
+  padding: 5px;
+}
+
+/* SignIn  */
+
+.bg_clr {
+  background-color: #ecf0f2;
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+} 
+
+/* SideBar */
+
+/* fixed-sideBar Section */
+.side-bar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 15;
+  left: 0;
+  background-color: white;
+  padding-top: 20px;
+}
+/* fixed-sideBar Section End */
+
+@media (max-width: 768px) {
+  .side-bar {
+    width: 100%;
+    padding: 10px;
+  }
+}
+.side-bar ul {
+  list-style: none;
+  font-size: 20px;
+}
+.side-bar ul li {
+  margin-top: 22px;
+}
+
+.side-bar ul li:hover {
+  background-color: #f8f8f8;
+
+  border-radius: 200px;
+}
+
+.sideBar-nav-link {
+  padding: 0px;
+  color: black;
+}
+
+.Logout-bg-img {
+  background-color: rgb(177, 175, 175);
+  border-radius: 15px 50px;
+}
+
+/* ecommerce card section */
+.mainEcommerce {
+  background-color: #f8f9fa;
+}
+
+.Second-navBar {
+  background-color: white;
+  border-radius: 15px 50px;
+  width: 90%;
+}
+
+.card-left-1 {
+  background-image: url(/images/card1.jpg);
+  height: 180px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-radius: 15px;
+}
+.card-left-2 {
+  background: linear-gradient(to right, rgb(127, 127, 131), rgb(139, 94, 94));
+  height: 180px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-radius: 15px;
+}
+.card-left-3 {
+  background: linear-gradient(to left, #4eda89, #1a9f53);
+  height: 180px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-radius: 15px;
+}
+.card-left-4 {
+  background: linear-gradient(to right, blue, grey);
+  height: 180px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-radius: 15px;
+}
+
+.card-left-5 {
+  background: linear-gradient(to right, rgb(165, 165, 165), rgb(221, 124, 124));
+  height: 180px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-radius: 15px;
+}
+.card-left-6 {
+  background: linear-gradient(to right, rgb(231, 213, 110), grey);
+  height: 180px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-radius: 15px;
+}
+/* ecommerce card section end*/
+
+/* Table */
+
+.table-bg-clr {
+  background-color: rgb(28, 106, 237);
+}
+.table-icons {
+  list-style: none;
+  display: flex;
+}
+.table-icons li svg {
+  background: linear-gradient(to right, rgb(177, 177, 180), rgb(221, 217, 217));
+
+  width: 30px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 5%;
+}
